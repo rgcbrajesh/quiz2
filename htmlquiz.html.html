@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best Quiz</title>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/media.css" />
   </head>
 
   <body>
     <h1 id="showname" style="text-transform: uppercase"></h1>
     <div id="container">
-      <h1 id="a1">1.HTML called us ?</h1>
+      <h1 id="a1">What does HTML stand for?</h1>
       <h2 id="a2">
         <ol>
           <li id="1">Hyper text markup language</li>
@@ -27,7 +27,19 @@
       <center>
         <input type="text" id="answer" style="background: transparent" />
         <br /><br />
-        <button id="submit" onclick="submit()">Submit</button>
+        <table border="0" style="width: 200px">
+          <tr>
+            <td>
+              <a href=""> <b style="font-size: 30px; width: 100px">< </b></a>
+            </td>
+            <td style="text-align: center">
+              <button id="submit" onclick="submit()">Submit</button>
+            </td>
+            <td style="font-size: 30px">
+              <a href="/htmlquiz2.html"><b> ></b></a>
+            </td>
+          </tr>
+        </table>
       </center>
     </div>
   </body>
@@ -46,3 +58,4 @@
     }
   }
 </script>
+
