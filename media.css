@@ -21,5 +21,13 @@
 #a2{
 font-size: 20px;
 }
+    #logindiv{
+    height:60vh;
+    width:50vh;
+    border: solid black 3px;
+    /* margin-left:75vh ; */
+    margin-top: 10vh;
+    margin-left:0px !important ;
+}
     
 }
