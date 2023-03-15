@@ -47,7 +47,7 @@ button{
     background-color: rgb(74, 72, 72);
 }
 
-/* body {
+ body {
     background: -moz-linear-gradient(45deg, #02e1ba 0%, #26c9f2 29%, #7107c8 66%, #b83a08 100%);
     background: -webkit-linear-gradient(45deg, #02e1ba 0%,#26c9f2 29%,#995ba1 66%,#331206 100%);
     background: linear-gradient(45deg, #02e1ba 0%,#26c9f2 29%,#944f9d 66%,#ff1d56 100%);
@@ -154,4 +154,4 @@ body::after {
 	.st12{clip-path:url(#SVGID_14_);}
 	.st13{opacity:0.2;}
 	.st14{clip-path:url(#SVGID_16_);}
-	.st15{opacity:0.3;fill:#FFFFFF;enable-background:new    ;} */
+	.st15{opacity:0.3;fill:#FFFFFF;enable-background:new    ;} 
