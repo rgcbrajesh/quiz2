@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Quiz</title>
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/media.css" />
+  </head>
+
+  <body>
+    <h1 id="showname" style="text-transform: uppercase"></h1>
+    <div id="container">
+      <h1 id="a1">Who is making the Web standards?</h1>
+      <h2 id="a2">
+        <ol>
+          <li id="1">Microsoft</li>
+          <li id="2">Google</li>
+          <li id="3">Mozilla</li>
+          <li id="4">The World Wide Web Consertium</li>
+        </ol>
+        <center>
+          <h3 id="result">Please Enter Your Answer Number</h3>
+        </center>
+      </h2>
+      <center>
+        <input type="text" id="answer" style="background: transparent" />
+        <br /><br />
+        <table border="0" style="width: 200px">
+          <tr>
+            <td>
+              <a href="/htmlquiz.html.html">
+                <b style="font-size: 30px; width: 100px">< </b></a
+              >
+            </td>
+            <td style="text-align: center">
+              <button id="submit" onclick="submit()">Submit</button>
+            </td>
+            <td style="font-size: 30px">
+              <a href=""><b> ></b></a>
+            </td>
+          </tr>
+        </table>
+      </center>
+    </div>
+  </body>
+</html>
+<script>
+  document.getElementById("showname").innerHTML =
+    "WELCOME  " + localStorage.getItem("name");
+
+  function submit() {
+    var rightanswer = parseInt(document.getElementById("answer").value);
+    var answer = 4;
+    if (answer == rightanswer) {
+      document.getElementById("result").innerHTML = "Answer Is Write";
+    } else {
+      document.getElementById("result").innerHTML = "Answer Is Wrong";
+    }
+  }
+</script>
